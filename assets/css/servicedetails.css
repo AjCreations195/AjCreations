@@ -566,7 +566,7 @@ body {
       background-size: cover;object-fit: contain;
       position: relative;
       padding: 0;
-      margin-top: -10px;
+     
       height: calc(100vh - 0px);
     }
     .centerthediv{margin-top: 15em;}
