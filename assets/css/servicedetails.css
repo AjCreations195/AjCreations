@@ -504,7 +504,7 @@ body {
   }
  .centerthediv{  display: flex;
   justify-content: center;
-  align-items: center;margin-top: 10em;}
+  align-items: center;margin-top: 12em;}
 
   
   #hero h1 {
@@ -565,9 +565,7 @@ body {
       background: url("../img/mobile3.jpg") center center;
       background-size: cover;object-fit: contain;
       position: relative;
-      
       padding: 0;
-   
       height: calc(100vh - 0px);
     }
   
