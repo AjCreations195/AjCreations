@@ -479,15 +479,32 @@ body {
   
 /* heroo */
   #hero {
-    width: 100%;
+    /* width: 100%;
     height: calc(100vh - 0px);
-    /* background: url("../img/portfolio/bg.jpg") center center; */
+    background: url("../img/portfolio/bg.jpg") center center;
     background: url("../img/system.jpeg") center center;
     background-size: cover;
     position: relative;
     background-position: center;
-    padding: 0;object-fit: contain;
+    padding: 0;object-fit: contain; */
+    /* background-image: url("../img/system.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+     width: 100%;
+    height: calc(100vh - 0px);
+    position: relative;  padding: 0; */
+    width: 100%;
+    height: calc(100vh - 30px);
+   padding: 0; 
   }
+
+  .imghero{width: 100%;
+  height: auto;
+  z-index: 1;position: absolute;
+  
+}
   
   #hero:before {
     content: "";
@@ -504,10 +521,12 @@ body {
   }
  .centerthediv{  display: flex;
   justify-content: center;
-  align-items: center;margin-top: 10em;}
+  align-items: center;
+  margin-top: 8em;
+}
 
   
-  #hero h1 {
+  /* #hero h1 {
     margin: 0 0 10px 0;
     font-size: 54px;
     font-weight: 700;
@@ -515,7 +534,7 @@ body {
     color: rgb(22, 20, 8);
    margin-top: 80px;
    
-  }
+  } */
 
   #hero .logo{
      border-radius: 50px;
@@ -523,15 +542,15 @@ body {
       margin-top: 10px;
       margin-right:10px ;
      position: relative;
-     z-index:1;
+     z-index:5;
   }
   
-  #hero h2 {
+  /* #hero h2 {
     color: rgba(161, 161, 15, 0.7);
     margin-bottom: 35px;
     font-size: 28px;
     font-family: 'Caveat', cursive;
-  }
+  } */
   
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
@@ -546,7 +565,8 @@ body {
     border: 5px solid #fff;
     color: rgb(255, 255, 255);
     background: rgb(58, 56, 56);
-    
+    z-index: 2;
+    margin-left: 25em;
   }
   
   #hero .btn-get-started:hover {
@@ -559,24 +579,25 @@ body {
       background-attachment: fixed;
     }
   }
-  
+
   @media (max-width: 768px) {
     #hero {
-      background: url("../img/mobile3.jpg") center center;
+      height:calc(100vh - 0px) ;
+      /* background: url("../img/mobile3.jpg") center center;
       background-size: cover;object-fit: contain;
       position: relative;
       padding: 0;
      
+      background-image: url("../img/mobile3.jpg") ;
       height: calc(100vh - 0px);
-    }
-    .centerthediv{margin-top: 15em;}
-
+    } */
+  }
+    .centerthediv{margin-top:8em;}
+    #hero .btn-get-started{margin-left: 0em;}
   
+
   }
-  @media (min-width: 780px) {
-    .centerthediv .btn-get-started{margin-left: 23em;}
-  }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     #hero h1 {
       font-size: 34px;
       line-height: 36px;
@@ -586,7 +607,7 @@ body {
       line-height: 24px;
       margin-bottom: 30px;
     }
-  }
+  } */
   
 /* hero2 */
 
